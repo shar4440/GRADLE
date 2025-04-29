@@ -2,7 +2,7 @@
     agent any
 
     tools {
-        gradle 'gradle' // Make sure Jenkins has this Gradle tool defined
+        gradle 'Gradle' // Make sure Jenkins has this Gradle tool defined
     }
 
     stages {
