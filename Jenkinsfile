@@ -1,9 +1,9 @@
   pipeline {
     agent any
+tools {
+    gradle 'Gradle' // or the exact name already configured in Jenkins
+}
 
-    tools {
-        gradle 'Gradle 7.3' // Make sure Jenkins has this Gradle tool defined
-    }
 
     stages {
         stage('Checkout') {
